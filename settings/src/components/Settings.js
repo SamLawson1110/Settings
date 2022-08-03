@@ -42,8 +42,7 @@ export default function Settings() {
             alignItems: 'center',
           }}
         >
-
-<Box
+      <Box
         component="img"
         sx={{
           height: 50,
@@ -56,6 +55,8 @@ export default function Settings() {
           <Typography component="h1" variant="h4" style={{fontWeight: 'bold'}}>
             Settings
           </Typography>
+          <Box component="form" sx={{height: 30,
+                width: 250,}}></Box>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 0 }}>
             <Grid container spacing={2}>
              <Button
@@ -81,6 +82,8 @@ export default function Settings() {
               </Typography>
             </Button> 
             </Grid>
+            <Box component="form" sx={{height: 200,
+                width: 250,}}></Box>
             <Grid>
             <Button
               color="white"
@@ -89,6 +92,7 @@ export default function Settings() {
               variant="contained"
               sx={{ mt: 2, mb: 2 }}
             >
+
               <Typography color="secondary">
                 Back To My Account
               </Typography>
