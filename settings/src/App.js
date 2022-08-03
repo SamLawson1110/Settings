@@ -1,5 +1,5 @@
 import './App.css';
-import './components/Settings';
+import Settings from './components/Settings';
 import * as React from 'react';
 
 function App() {
